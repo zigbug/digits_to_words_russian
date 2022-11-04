@@ -65,9 +65,9 @@ class DigitsToWordsParser {
     String digitName = '';
     List<int> numberMilletimation = [];
     int i = 0;
-    if (number > 1000000000000) {
+    if (number > 1000000000000000) {
       throw DigitsToWordsRussianParserException(
-          message: 'the number must be less than a trillion');
+          message: 'the number must be < 1000000000000000');
     } else {
       i = number;
     }
