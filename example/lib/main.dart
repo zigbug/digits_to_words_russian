@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:digits_to_words_russian/digits_to_words_russian.dart';
 
 void main() {
   runApp(const MyApp());
@@ -95,8 +96,8 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+            Text(
+              DigitsToWordsParser().toWords(number: _counter),
             ),
             Text(
               '$_counter',
