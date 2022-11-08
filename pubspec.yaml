@@ -1,7 +1,7 @@
 name: digits_to_words_russian
-description: A new Flutter package project.
+description: Convert digits to it Russian name.
 version: 0.0.1
-homepage:
+repository: https://github.com/zigbug/digits_to_words_russian
 
 environment:
   sdk: '>=2.18.2 <3.0.0'
